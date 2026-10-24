@@ -1,0 +1,19 @@
+{
+  "dateKST": "2026-10-24",
+  "workspace": "vm-05:/srv/multi-vm-agent/workspace/make_money2",
+  "issuer": "Blockchain IQ",
+  "network": "eip155:8453",
+  "resource": "https://www.blockchainiq.co/api/x402/v1/brief",
+  "advertisedPriceUSDC": "0.01",
+  "deterministicTestsPass": 7,
+  "deterministicTestsFail": 0,
+  "freeSampleHTTP": 200,
+  "unpaidBriefHTTP": 402,
+  "paymentRequiredHeader": true,
+  "paidCallMade": false,
+  "validOnchainReceipt": false,
+  "claimSubmitted": false,
+  "bountyAwardedUSDC": 0,
+  "newRevenueUSDC": 0,
+  "note": "A mocked paid-response header in unit tests is not a real settlement."
+}
