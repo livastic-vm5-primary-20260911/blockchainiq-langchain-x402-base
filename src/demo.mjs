@@ -32,7 +32,7 @@ if (flags.length !== 1 || !["--probe", "--sample", "--paid"].includes(flags[0]))
   const account = privateKeyToAccount(rawKey);
   const client = x402Client.fromConfig({
     schemes: [{ network: "eip155:8453", client: new ExactEvmScheme(account) }],
-    spendControls: { maxAmountPerPayment: 0.01 },
+    spendControls: { maxAmountPerPayment: "$0.01" },
   });
   let settleReceipt = null;
   const paidFetch = wrapFetchWithPayment(async (...args) => {
