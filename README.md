@@ -2,6 +2,10 @@
 
 Original minimal **LangChain DynamicStructuredTool** that fetches the Blockchain IQ crypto market brief through x402 v2 on **Base mainnet**. The official API currently asks **0.01 USDC** for this call. Built as an independent submission candidate for [Blockchain IQ's USDC builder bounty](https://www.blockchainiq.co/blog/x402-build-bounties). Not affiliated with Blockchain IQ. No award guaranteed.
 
+## Existing same-owner LangChain effort
+
+A separate [VM1 LangChain repository](https://github.com/livastic-vm1-primary/blockchainiq-langchain-x402-20261024) was already publicly published first by this **same single human beneficial owner**. One non-claim eligibility inquiry was sent to the sponsor from the owner account on 2026-10-24, identifying that prior repository. This VM5 LangChain repo is a **secondary experiment**, not a separate human operator, not a separate award claim and not a second LangChain slot. This owner can receive at most one LangChain payout. For an independent framework, we created the [CrewAI integration](https://github.com/livastic-vm5-primary-20260911/blockchainiq-crewai-x402-base).
+
 ## Zero-spend tests (Node.js 20+)
 
 ```sh
